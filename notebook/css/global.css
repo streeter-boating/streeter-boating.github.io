@@ -1,0 +1,54 @@
+/*
+    ++++++ GLOBAL STYLES ++++++
+
+    These styles are used across the notebook.
+*/
+
+/* CSS Variables */
+:root {
+    --cursor: #000;
+    --pencil: #373737;
+    --bluetooth: #207fcd;
+    --flowers: #3d0b56;
+    --sidewalk: #ececec;
+    --note: lemonchiffon;
+}
+
+/* Border box sizing fix */
+*, *:before, *:after { box-sizing: border-box; }
+
+/* Some global style resets */
+body {
+  padding: 30px;
+  margin: 0;
+  font-family: sans-serif;
+  color: var(--);
+  background-color: var(--sidewalk);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+  -webkit-text-size-adjust: none; 
+}
+h1, h2, h3, h4, p, ol, ul, li {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
+    line-height: 24px;
+}
+img {
+    max-width: 100%;
+}
+a {
+    color: var(--flowers);
+}
+
+/* Mobile */
+@media(max-width: 600px) {
+    body {
+        padding: 18px;
+    }
+}
+
