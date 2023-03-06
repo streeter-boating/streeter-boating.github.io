@@ -59,6 +59,23 @@ a:visited {
     color:darkgreen;
 }
 
+grid-container {
+    display: grid;
+    min-width: 100vh;
+    min-height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    background-color: white;
+    column-gap: 5px;
+    row-gap: 5px;
+    
+}
+
+grid-item {
+    grid-column: span 1;
+    grid-row: span 1;    
+}
+
 .right {
     top: 100px;
     border: 10px solid yellow;
