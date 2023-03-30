@@ -19,11 +19,6 @@ span{
     background-color: yellow;
 }
 
-figure {
-    width: 500px;
-    padding: 1rem;
-}
-
 ul {
     list-style-position: outside;
     text-align:left; 
