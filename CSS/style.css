@@ -22,7 +22,7 @@ span{
 ul {
     list-style-position: outside;
     text-align:left; 
-    list-style-type: disc;  
+    list-style-type: none;  
     color: forestgreen;
     padding-inline-start: 10px;
     margin-top: 2px;
