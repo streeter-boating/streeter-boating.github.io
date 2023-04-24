@@ -63,6 +63,7 @@ grid-container {
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr); */
     background-color: white; 
+    padding: 10px;
 }
 
 grid-item {
