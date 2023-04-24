@@ -65,6 +65,13 @@ grid-container {
     
 }
 
+.icon {
+    top: 0;
+    left: 0;
+    position: sticky;
+    max-width: 9%;   
+}
+
 grid-item {
     grid-column: span 1;
     grid-row: span 1;    
