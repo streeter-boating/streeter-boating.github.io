@@ -57,13 +57,11 @@ a:visited {
 grid-container {
     display: flex;
     flex-direction: column;
-    max-width: 90vh;
-    min-height: 100vh;
+    max-width: 90%;
+    min-height: 100%;
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr); */
-    background-color: white;
-    column-gap: 5px;
-    row-gap: 5px;   
+    background-color: white; 
 }
 
 grid-item {
