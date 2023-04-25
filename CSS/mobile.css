@@ -42,7 +42,7 @@ h2 {
 img {
     width: auto;
     height: auto;
-    object-fit: contain;
+    object-fit: scale-down;
 }
 
 a:link {
