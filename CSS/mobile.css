@@ -40,7 +40,7 @@ h2 {
 }
 
 img {
-    width: 100vh;
+    width: auto;
     height: auto;
     object-fit: contain;
 }
@@ -58,7 +58,7 @@ a:visited {
 grid-container {
     display: flex;
     flex-direction: column;
-    max-width: 90%;
+    max-width: 100%;
     min-height: 100%;
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr); */
@@ -109,12 +109,12 @@ grid-item {
     padding-left: 10px;
 }
 .left-box {
-    grid-column: 1 / 12;
+    grid-column: 1 / -1;
     grid-row: 3 / 7;
 }
 
 .right-box {
-    grid-column: 1 / 12;
+    grid-column: 1 / -1;
     grid-row: 7 / 11;
 }
 
