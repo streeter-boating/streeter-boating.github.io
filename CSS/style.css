@@ -112,6 +112,11 @@ grid-item {
     justify-content: right;
     padding-left: 10px;
 }
+
+.secret-box {
+    display: none;
+}
+
 .left-box {
     grid-column: 1 / 6;
     grid-row: 2 / 8;
