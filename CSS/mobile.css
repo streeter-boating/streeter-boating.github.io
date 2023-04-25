@@ -60,6 +60,7 @@ grid-container {
     flex-direction: column;
     max-width: 100%;
     min-height: 100%;
+    min-width: auto;
     /* grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 2fr); */
     background-color: white; 
