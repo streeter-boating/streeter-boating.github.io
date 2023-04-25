@@ -85,17 +85,12 @@ grid-item {
     justify-content: right;
 }
 
-.el {
-    background-color: white;
-    color: black;
-}
-
 .container {
     min-height: 100vh;
     display: grid;
     grid-gap: 3px;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 50px 300px auto;
+    grid-template-rows: 50px auto;
 }
 
 .header {
@@ -114,22 +109,25 @@ grid-item {
     padding-left: 10px;
 }
 .left-box {
-    grid-column: 1 / 6;
-    grid-row: 2 / 8;
+    grid-column: 1 / 12;
+    grid-row: 3 / 7;
 }
 
 .right-box {
-    grid-column: 6 / 11;
-    grid-row: 2 / 8;
+    grid-column: 1 / 12;
+    grid-row: 7 / 11;
 }
 
+.secret-box {
+    grid-column: 1 / 11;
+    grid-row: 2 / 3;
+}
 .sidebar {
-    grid-column: 11 / -1;
-    grid-row: 2 / 12;
+    display: none;
 }
 
 .footer {
     grid-column: 1 / 11;
-    grid-row: 8 / 12;
+    grid-row: 11 / 12;
 }
 
