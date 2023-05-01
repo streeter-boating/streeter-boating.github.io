@@ -106,10 +106,10 @@ grid-item {
 }
 
 .date {
-    grid-column: 10 / -1; 
+    grid-column: 11 / -1; 
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: left;
     padding-left: 10px;
 }
 
