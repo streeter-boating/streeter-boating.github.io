@@ -69,7 +69,8 @@ grid-container {
     top: 0;
     left: 0;
     position: sticky;
-    max-width: 9%;   
+    max-width: 62px;   
+    max-height: 62px;
 }
 
 grid-item {
