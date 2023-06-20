@@ -119,6 +119,7 @@ grid-item {
 }
 
 .left-box {
+    display: block;
     grid-column: 1 / 6;
     grid-row: 2 / 8;
 }
@@ -129,6 +130,7 @@ grid-item {
 }
 
 .sidebar {
+    display: block;
     grid-column: 11 / -1;
     grid-row: 2 / 12;
 }
