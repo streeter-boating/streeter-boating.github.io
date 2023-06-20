@@ -110,22 +110,21 @@ grid-item {
     padding-left: 10px;
 }
 .left-box {
+    display: none;
     grid-column: 1 / -1;
     grid-row: 3 / 7;
 }
 
 .right-box {
+    display: block;
     grid-column: 1 / -1;
     grid-row: 7 / 11;
 }
 
-.secret-box {
-    display: block;
-    grid-column: 1 / 11;
-    grid-row: 2 / 3;
-}
 .sidebar {
-    display: none;
+    display: block;
+    grid-row: 2 / 7;
+    grid-column: 1 / 11;
 }
 
 .footer {
