@@ -61,8 +61,18 @@ grid-container {
     grid-template-rows: repeat(2, 2fr);
     background-color: white;
     column-gap: 5px;
-    row-gap: 5px;
-    
+    row-gap: 5px;    
+}
+
+blog-container {
+    display: grid;
+    min-width: 100vh;
+    min-height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 2fr);
+    background-color: white;
+    column-gap: 5px;
+    row-gap: 5px;    
 }
 
 .icon {
